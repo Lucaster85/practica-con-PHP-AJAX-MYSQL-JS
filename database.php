@@ -3,10 +3,10 @@
         'localhost',
         'root',
         'root',
-        'tasks-app'
+        'php_mysql_crud'
     );
 
-    // if ($connection) {
-    //     echo 'Database is connected';
-    // }
+    if ($connection) {
+        echo 'Database is connected';
+    }
 ?>
