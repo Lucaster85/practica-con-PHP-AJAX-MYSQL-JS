@@ -14,6 +14,8 @@
             'id' => $row['id']
         );
     }
+    // var_dump($json);
+    // exit;
     $jsonstring = json_encode($json);
     echo $jsonstring;
 ?>

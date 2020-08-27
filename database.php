@@ -2,11 +2,11 @@
     $connection = mysqli_connect(
         'localhost',
         'root',
-        'root',
+        null,
         'php_mysql_crud'
     );
 
-    if ($connection) {
-        echo 'Database is connected';
-    }
+    // if ($connection) {
+    //     echo 'Database is connected';
+    // }
 ?>
